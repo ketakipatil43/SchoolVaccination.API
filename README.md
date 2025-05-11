@@ -5,5 +5,5 @@ Initial Setup:
 ConnectionStrings": {
         "SqlServer": "Server=localhost\\SQLEXPRESS;Database=master;Trusted_Connection=True;TrustServerCertificate=True"
     }
-2. Refer Documentation DB Schema to create tables
+2. Refer Documentation DB Schema to create tables and use that as a refernce to run the entire db script
 
