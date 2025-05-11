@@ -1,0 +1,157 @@
+[
+  {
+    "ContainingType": "UM.API.Controllers.Common.PageController\u00602[[UM.Core.ModelEntities.CreateAccountModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[UM.Core.BaseEntities.BaseSearchEntity, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteEntity",
+    "RelativePath": "api/CreateAccount/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formData",
+        "Type": "UM.Core.ModelEntities.CreateAccountModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UM.Core.Common.MainViewModel\u00601[[UM.Core.ModelEntities.CreateAccountModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "UM.API.Controllers.Common.PageController\u00602[[UM.Core.ModelEntities.CreateAccountModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[UM.Core.BaseEntities.BaseSearchEntity, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteEntity",
+    "RelativePath": "api/CreateAccount/deletebyids",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formData",
+        "Type": "System.Collections.Generic.List\u00601[[UM.Core.ModelEntities.CreateAccountModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UM.Core.Common.MainViewModel\u00601[[UM.Core.ModelEntities.CreateAccountModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "UM.API.Controllers.Common.PageController\u00602[[UM.Core.ModelEntities.CreateAccountModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[UM.Core.BaseEntities.BaseSearchEntity, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "InsertUpdate",
+    "RelativePath": "api/CreateAccount/insertupdate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formData",
+        "Type": "UM.Core.ModelEntities.CreateAccountModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UM.Core.Common.MainViewModel\u00601[[UM.Core.ModelEntities.CreateAccountModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "UM.API.Controllers.Common.SearchController\u00602[[UM.Core.ModelEntities.CreateAccountModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[UM.Core.BaseEntities.BaseSearchEntity, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "List",
+    "RelativePath": "api/CreateAccount/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PrimaryKey",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "StartIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Sorting",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortOrder",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UM.Core.Common.MainViewModel\u00601[[DataHelper.Entities.PaginedList\u00601[[UM.Core.ModelEntities.CreateAccountModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], DataHelper, Version=4.2.9.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "UM.API.Controllers.Common.SearchController\u00602[[UM.Core.ModelEntities.CreateAccountModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[UM.Core.BaseEntities.BaseSearchEntity, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetSingle",
+    "RelativePath": "api/CreateAccount/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formData",
+        "Type": "UM.Core.BaseEntities.BaseSearchEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UM.Core.Common.MainViewModel\u00601[[UM.Core.ModelEntities.CreateAccountModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

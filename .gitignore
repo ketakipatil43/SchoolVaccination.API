@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/DataHelper/bin/Debug
+/SchoolVaccination.API/bin/Debug/net9.0
+/UM.API/bin/Debug/net9.0
+/UM.Applications/bin/Debug/net9.0
+/UM.Core/bin/Debug/net9.0
+/UM.Data/bin/Debug/net9.0
+/DataHelper

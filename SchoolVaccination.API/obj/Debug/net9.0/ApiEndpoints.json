@@ -1,0 +1,724 @@
+[
+  {
+    "ContainingType": "SchoolVaccination.API.Controllers.Common.PageController\u00602[[UM.Core.ModelEntities.DashboardModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[UM.Core.BaseEntities.BaseSearchEntity, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteEntity",
+    "RelativePath": "api/Dashboard/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formData",
+        "Type": "UM.Core.ModelEntities.DashboardModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UM.Core.Common.MainViewModel\u00601[[UM.Core.ModelEntities.DashboardModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SchoolVaccination.API.Controllers.Common.PageController\u00602[[UM.Core.ModelEntities.DashboardModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[UM.Core.BaseEntities.BaseSearchEntity, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteEntity",
+    "RelativePath": "api/Dashboard/deletebyids",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formData",
+        "Type": "System.Collections.Generic.List\u00601[[UM.Core.ModelEntities.DashboardModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UM.Core.Common.MainViewModel\u00601[[UM.Core.ModelEntities.DashboardModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SchoolVaccination.API.Controllers.Common.PageController\u00602[[UM.Core.ModelEntities.DashboardModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[UM.Core.BaseEntities.BaseSearchEntity, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "InsertUpdate",
+    "RelativePath": "api/Dashboard/insertupdate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formData",
+        "Type": "UM.Core.ModelEntities.DashboardModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UM.Core.Common.MainViewModel\u00601[[UM.Core.ModelEntities.DashboardModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SchoolVaccination.API.Controllers.Common.SearchController\u00602[[UM.Core.ModelEntities.DashboardModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[UM.Core.BaseEntities.BaseSearchEntity, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "List",
+    "RelativePath": "api/Dashboard/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PrimaryKey",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "StartIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Sorting",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortOrder",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UM.Core.Common.MainViewModel\u00601[[DataHelper.Entities.PaginedList\u00601[[UM.Core.ModelEntities.DashboardModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], DataHelper, Version=4.2.9.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SchoolVaccination.API.Controllers.Common.SearchController\u00602[[UM.Core.ModelEntities.DashboardModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[UM.Core.BaseEntities.BaseSearchEntity, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetSingle",
+    "RelativePath": "api/Dashboard/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formData",
+        "Type": "UM.Core.BaseEntities.BaseSearchEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UM.Core.Common.MainViewModel\u00601[[UM.Core.ModelEntities.DashboardModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SchoolVaccination.API.Controllers.Common.SearchController\u00602[[UM.Core.ModelEntities.CreateAccountModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[UM.Core.SearchEntities.CreateAccountSearchModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "List",
+    "RelativePath": "api/Login/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PrimaryKey",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "StartIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Sorting",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortOrder",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UM.Core.Common.MainViewModel\u00601[[DataHelper.Entities.PaginedList\u00601[[UM.Core.ModelEntities.CreateAccountModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], DataHelper, Version=4.2.9.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SchoolVaccination.API.Controllers.Common.SearchController\u00602[[UM.Core.ModelEntities.CreateAccountModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[UM.Core.SearchEntities.CreateAccountSearchModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetSingle",
+    "RelativePath": "api/Login/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formData",
+        "Type": "UM.Core.SearchEntities.CreateAccountSearchModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UM.Core.Common.MainViewModel\u00601[[UM.Core.ModelEntities.CreateAccountModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SchoolVaccination.API.Controllers.Common.PageController\u00602[[UM.Core.ModelEntities.StudentsModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[UM.Core.SearchEntities.StudentSearchModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteEntity",
+    "RelativePath": "api/Student/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formData",
+        "Type": "UM.Core.ModelEntities.StudentsModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UM.Core.Common.MainViewModel\u00601[[UM.Core.ModelEntities.StudentsModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SchoolVaccination.API.Controllers.Common.PageController\u00602[[UM.Core.ModelEntities.StudentsModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[UM.Core.SearchEntities.StudentSearchModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteEntity",
+    "RelativePath": "api/Student/deletebyids",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formData",
+        "Type": "System.Collections.Generic.List\u00601[[UM.Core.ModelEntities.StudentsModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UM.Core.Common.MainViewModel\u00601[[UM.Core.ModelEntities.StudentsModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SchoolVaccination.API.Controllers.Common.PageController\u00602[[UM.Core.ModelEntities.StudentsModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[UM.Core.SearchEntities.StudentSearchModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "InsertUpdate",
+    "RelativePath": "api/Student/insertupdate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formData",
+        "Type": "UM.Core.ModelEntities.StudentsModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UM.Core.Common.MainViewModel\u00601[[UM.Core.ModelEntities.StudentsModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SchoolVaccination.API.Controllers.Common.SearchController\u00602[[UM.Core.ModelEntities.StudentsModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[UM.Core.SearchEntities.StudentSearchModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "List",
+    "RelativePath": "api/Student/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IsFilterApplied",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "StudentId",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "VaccinationDriveId",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "PrimaryKey",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "StartIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Sorting",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortOrder",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UM.Core.Common.MainViewModel\u00601[[DataHelper.Entities.PaginedList\u00601[[UM.Core.ModelEntities.StudentsModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], DataHelper, Version=4.2.9.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SchoolVaccination.API.Controllers.Common.SearchController\u00602[[UM.Core.ModelEntities.StudentsModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[UM.Core.SearchEntities.StudentSearchModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetSingle",
+    "RelativePath": "api/Student/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formData",
+        "Type": "UM.Core.SearchEntities.StudentSearchModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UM.Core.Common.MainViewModel\u00601[[UM.Core.ModelEntities.StudentsModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SchoolVaccination.API.Controllers.Common.PageController\u00602[[UM.Core.ModelEntities.VaccinationDriveModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[UM.Core.BaseEntities.BaseSearchEntity, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteEntity",
+    "RelativePath": "api/VaccinationDrive/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formData",
+        "Type": "UM.Core.ModelEntities.VaccinationDriveModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UM.Core.Common.MainViewModel\u00601[[UM.Core.ModelEntities.VaccinationDriveModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SchoolVaccination.API.Controllers.Common.PageController\u00602[[UM.Core.ModelEntities.VaccinationDriveModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[UM.Core.BaseEntities.BaseSearchEntity, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteEntity",
+    "RelativePath": "api/VaccinationDrive/deletebyids",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formData",
+        "Type": "System.Collections.Generic.List\u00601[[UM.Core.ModelEntities.VaccinationDriveModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UM.Core.Common.MainViewModel\u00601[[UM.Core.ModelEntities.VaccinationDriveModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SchoolVaccination.API.Controllers.Common.PageController\u00602[[UM.Core.ModelEntities.VaccinationDriveModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[UM.Core.BaseEntities.BaseSearchEntity, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "InsertUpdate",
+    "RelativePath": "api/VaccinationDrive/insertupdate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formData",
+        "Type": "UM.Core.ModelEntities.VaccinationDriveModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UM.Core.Common.MainViewModel\u00601[[UM.Core.ModelEntities.VaccinationDriveModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SchoolVaccination.API.Controllers.Common.SearchController\u00602[[UM.Core.ModelEntities.VaccinationDriveModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[UM.Core.BaseEntities.BaseSearchEntity, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "List",
+    "RelativePath": "api/VaccinationDrive/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PrimaryKey",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "StartIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Sorting",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortOrder",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UM.Core.Common.MainViewModel\u00601[[DataHelper.Entities.PaginedList\u00601[[UM.Core.ModelEntities.VaccinationDriveModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], DataHelper, Version=4.2.9.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SchoolVaccination.API.Controllers.Common.SearchController\u00602[[UM.Core.ModelEntities.VaccinationDriveModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[UM.Core.BaseEntities.BaseSearchEntity, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetSingle",
+    "RelativePath": "api/VaccinationDrive/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formData",
+        "Type": "UM.Core.BaseEntities.BaseSearchEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UM.Core.Common.MainViewModel\u00601[[UM.Core.ModelEntities.VaccinationDriveModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SchoolVaccination.API.Controllers.Common.PageController\u00602[[UM.Core.ModelEntities.VaccinationStudentMapperModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[UM.Core.BaseEntities.BaseSearchEntity, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteEntity",
+    "RelativePath": "api/VaccinationStudentMapper/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formData",
+        "Type": "UM.Core.ModelEntities.VaccinationStudentMapperModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UM.Core.Common.MainViewModel\u00601[[UM.Core.ModelEntities.VaccinationStudentMapperModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SchoolVaccination.API.Controllers.Common.PageController\u00602[[UM.Core.ModelEntities.VaccinationStudentMapperModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[UM.Core.BaseEntities.BaseSearchEntity, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteEntity",
+    "RelativePath": "api/VaccinationStudentMapper/deletebyids",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formData",
+        "Type": "System.Collections.Generic.List\u00601[[UM.Core.ModelEntities.VaccinationStudentMapperModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UM.Core.Common.MainViewModel\u00601[[UM.Core.ModelEntities.VaccinationStudentMapperModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SchoolVaccination.API.Controllers.Common.PageController\u00602[[UM.Core.ModelEntities.VaccinationStudentMapperModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[UM.Core.BaseEntities.BaseSearchEntity, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "InsertUpdate",
+    "RelativePath": "api/VaccinationStudentMapper/insertupdate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formData",
+        "Type": "UM.Core.ModelEntities.VaccinationStudentMapperModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UM.Core.Common.MainViewModel\u00601[[UM.Core.ModelEntities.VaccinationStudentMapperModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SchoolVaccination.API.Controllers.Common.SearchController\u00602[[UM.Core.ModelEntities.VaccinationStudentMapperModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[UM.Core.BaseEntities.BaseSearchEntity, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "List",
+    "RelativePath": "api/VaccinationStudentMapper/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PrimaryKey",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "StartIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Sorting",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortOrder",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UM.Core.Common.MainViewModel\u00601[[DataHelper.Entities.PaginedList\u00601[[UM.Core.ModelEntities.VaccinationStudentMapperModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], DataHelper, Version=4.2.9.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SchoolVaccination.API.Controllers.Common.SearchController\u00602[[UM.Core.ModelEntities.VaccinationStudentMapperModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[UM.Core.BaseEntities.BaseSearchEntity, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetSingle",
+    "RelativePath": "api/VaccinationStudentMapper/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formData",
+        "Type": "UM.Core.BaseEntities.BaseSearchEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UM.Core.Common.MainViewModel\u00601[[UM.Core.ModelEntities.VaccinationStudentMapperModel, UM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

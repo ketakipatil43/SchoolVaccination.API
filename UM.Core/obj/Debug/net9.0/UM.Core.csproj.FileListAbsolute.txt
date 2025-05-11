@@ -1,0 +1,15 @@
+C:\Users\DELL\source\repos\UM.API\UM.Core\bin\Debug\net9.0\UM.Core.deps.json
+C:\Users\DELL\source\repos\UM.API\UM.Core\bin\Debug\net9.0\UM.Core.dll
+C:\Users\DELL\source\repos\UM.API\UM.Core\bin\Debug\net9.0\UM.Core.pdb
+C:\Users\DELL\source\repos\UM.API\UM.Core\bin\Debug\net9.0\DataHelper.dll
+C:\Users\DELL\source\repos\UM.API\UM.Core\bin\Debug\net9.0\DataHelper.pdb
+C:\Users\DELL\source\repos\UM.API\UM.Core\obj\Debug\net9.0\UM.Core.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\UM.API\UM.Core\obj\Debug\net9.0\UM.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\UM.API\UM.Core\obj\Debug\net9.0\UM.Core.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\UM.API\UM.Core\obj\Debug\net9.0\UM.Core.AssemblyInfo.cs
+C:\Users\DELL\source\repos\UM.API\UM.Core\obj\Debug\net9.0\UM.Core.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\UM.API\UM.Core\obj\Debug\net9.0\UM.Core.csproj.Up2Date
+C:\Users\DELL\source\repos\UM.API\UM.Core\obj\Debug\net9.0\UM.Core.dll
+C:\Users\DELL\source\repos\UM.API\UM.Core\obj\Debug\net9.0\refint\UM.Core.dll
+C:\Users\DELL\source\repos\UM.API\UM.Core\obj\Debug\net9.0\UM.Core.pdb
+C:\Users\DELL\source\repos\UM.API\UM.Core\obj\Debug\net9.0\ref\UM.Core.dll

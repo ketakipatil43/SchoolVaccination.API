@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "MWGLHn9NO5nkoHM6D4uJ3NVllJm+d50PixgGcfgkxR4=",
+  "Source": "UM.API",
+  "BasePath": "_content/UM.API",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

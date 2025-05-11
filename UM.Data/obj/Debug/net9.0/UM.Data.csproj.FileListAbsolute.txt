@@ -1,0 +1,17 @@
+C:\Users\DELL\source\repos\UM.API\UM.Data\bin\Debug\net9.0\UM.Data.deps.json
+C:\Users\DELL\source\repos\UM.API\UM.Data\bin\Debug\net9.0\UM.Data.dll
+C:\Users\DELL\source\repos\UM.API\UM.Data\bin\Debug\net9.0\UM.Data.pdb
+C:\Users\DELL\source\repos\UM.API\UM.Data\bin\Debug\net9.0\DataHelper.dll
+C:\Users\DELL\source\repos\UM.API\UM.Data\bin\Debug\net9.0\UM.Core.dll
+C:\Users\DELL\source\repos\UM.API\UM.Data\bin\Debug\net9.0\UM.Core.pdb
+C:\Users\DELL\source\repos\UM.API\UM.Data\bin\Debug\net9.0\DataHelper.pdb
+C:\Users\DELL\source\repos\UM.API\UM.Data\obj\Debug\net9.0\UM.Data.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\UM.API\UM.Data\obj\Debug\net9.0\UM.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\UM.API\UM.Data\obj\Debug\net9.0\UM.Data.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\UM.API\UM.Data\obj\Debug\net9.0\UM.Data.AssemblyInfo.cs
+C:\Users\DELL\source\repos\UM.API\UM.Data\obj\Debug\net9.0\UM.Data.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\UM.API\UM.Data\obj\Debug\net9.0\UM.Data.csproj.Up2Date
+C:\Users\DELL\source\repos\UM.API\UM.Data\obj\Debug\net9.0\UM.Data.dll
+C:\Users\DELL\source\repos\UM.API\UM.Data\obj\Debug\net9.0\refint\UM.Data.dll
+C:\Users\DELL\source\repos\UM.API\UM.Data\obj\Debug\net9.0\UM.Data.pdb
+C:\Users\DELL\source\repos\UM.API\UM.Data\obj\Debug\net9.0\ref\UM.Data.dll
